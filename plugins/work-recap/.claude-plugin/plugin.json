@@ -1,9 +1,0 @@
-{
-  "name": "work-recap",
-  "description": "Compile recently completed Linear tickets and closed Obsidian daily-note todos into a short recap and DM it to yourself on Slack. Manual, on-demand only.",
-  "version": "0.1.0",
-  "author": {
-    "name": "Cealtea"
-  },
-  "keywords": ["linear", "obsidian", "slack", "recap", "standup"]
-}

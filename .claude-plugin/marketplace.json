@@ -11,9 +11,9 @@
   },
   "plugins": [
     {
-      "name": "work-recap",
-      "source": "./plugins/work-recap",
-      "description": "Compile recently completed Linear tickets and closed Obsidian daily-note todos into a short recap and DM it to yourself on Slack.",
+      "name": "work",
+      "source": "./plugins/work",
+      "description": "Work skills. Currently: recap, which compiles recently completed Linear tickets and closed Obsidian daily-note todos into a short recap and DMs it to you on Slack.",
       "version": "0.1.0",
       "author": {
         "name": "Cealtea"

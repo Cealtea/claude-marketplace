@@ -13,21 +13,21 @@ In Claude Code:
 Then browse and install plugins:
 
 ```text
-/plugin install work-recap@cealtea
+/plugin install work@cealtea
 ```
 
 Or from the shell:
 
 ```sh
 claude plugin marketplace add Cealtea/claude-marketplace
-claude plugin install work-recap@cealtea
+claude plugin install work@cealtea
 ```
 
 ## Plugins
 
 | Plugin | Description |
 | --- | --- |
-| `work-recap` | Compiles completed Linear tickets and closed Obsidian daily-note todos into a recap and DMs it to you on Slack. Run `/work-recap:work-recap`. Requires the Linear and Slack MCP connectors. On first run it asks for your Slack and Linear user IDs, Obsidian folder, and time zone, and saves them to `~/.config/work-recap/config.json`. Edit or delete that file to reconfigure. |
+| `work` | Work skills. Includes `recap`, which compiles completed Linear tickets and closed Obsidian daily-note todos into a recap and DMs it to you on Slack. Run `/work:recap`. Requires the Linear and Slack MCP connectors. On first run it asks for your Slack and Linear user IDs, Obsidian folder, and time zone, and saves them to `~/.config/work-recap/config.json`. Edit or delete that file to reconfigure. |
 
 ## Repo layout
 
@@ -54,7 +54,7 @@ claude plugin validate .
 Test a plugin without publishing:
 
 ```sh
-claude --plugin-dir ./plugins/work-recap
+claude --plugin-dir ./plugins/work
 ```
 
 Or add this checkout as a marketplace directly:

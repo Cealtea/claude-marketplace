@@ -1,0 +1,9 @@
+{
+  "name": "work",
+  "description": "Work skills. Currently: recap, which compiles recently completed Linear tickets and closed Obsidian daily-note todos into a short recap and DMs it to you on Slack.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Celine Fabry"
+  },
+  "keywords": ["linear", "obsidian", "slack", "recap", "standup"]
+}

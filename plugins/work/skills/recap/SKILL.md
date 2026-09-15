@@ -1,6 +1,6 @@
 ---
-name: work-recap
-description: Compile the user's recently completed Linear tickets and closed Obsidian daily-note todos into a short recap and DM it to them on Slack. Manual/on-demand only — there is no recurring schedule for this. Use this whenever the user asks for a work recap in their own words — "post my recap to Slack", "send my done-ticket summary", "DM me what I finished this week", "what did I close since Friday/Tuesday" — or runs `/work-recap` directly.
+name: recap
+description: Compile the user's recently completed Linear tickets and closed Obsidian daily-note todos into a short recap and DM it to them on Slack. Manual/on-demand only — there is no recurring schedule for this. Use this whenever the user asks for a work recap in their own words — "post my recap to Slack", "send my done-ticket summary", "DM me what I finished this week", "what did I close since Friday/Tuesday" — or runs `/work:recap` directly.
 ---
 
 # Linear + Obsidian → Slack recap
