@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cealtea",
+  "owner": {
+    "name": "Cealtea",
+    "url": "https://github.com/Cealtea"
+  },
+  "metadata": {
+    "description": "Cealtea's Claude Code plugins: skills, commands, agents, and hooks.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "work-recap",
+      "source": "./plugins/work-recap",
+      "description": "Compile recently completed Linear tickets and closed Obsidian daily-note todos into a short recap and DM it to yourself on Slack.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Cealtea"
+      },
+      "category": "productivity",
+      "keywords": ["linear", "obsidian", "slack", "recap", "standup"]
+    }
+  ]
+}
